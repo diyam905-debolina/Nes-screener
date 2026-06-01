@@ -102,7 +102,7 @@ def get_screened_stocks():
                 latest_macd > latest_signal and
                 latest_adx > 20 and
                 latest_vol >= 1.0 * latest_avg_vol and
-                week_perf >= 1 and
+                week_perf >= -5 and
                 latest_avg_vol >= 200000 and
                 50 <= latest_close <= 5000 and
                 dist_52w <= 20):
